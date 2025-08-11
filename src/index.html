@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
 
-    <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
-    </main>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Focused Fits</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="node_modules/css-star-rating/css/star-rating.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-    <load src="./partials/footer.html" />
+<body>
+  <load src="/partials/header.html" />
+  <main>
+    <load src="./partials/hero.html" />
+    <load src="./partials/furniture-list.html" />
+    <load src="./partials/about-us.html" />
+    <load src="./partials/FAQ.html" />
+    <load src="./partials/feadback.html" />
+    <load src="./partials/furniture-deails-modal.html" />
+    <load src="./partials/order-modal.html" />
+  </main>
+  <load src="./partials/footer.html" />
+  <script type="module" src="./main.js"></script>
+</body>
 
-    <script type="module" src="./main.js"></script>
-  </body>
 </html>
