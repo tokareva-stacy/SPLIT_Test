@@ -11,8 +11,26 @@
   {
     "id": 2,
     "name": "The Colour 3-Pack",
-    "price": 102,
-    "oldPrice": 138,
+    "price": 138,
+    "oldPrice": 154,
+    "isSellingFast": false,
+    "isSoldOut": false,
+    "imageUrl": "path/to/image2.png"
+  },
+  {
+    "id": 3,
+    "name": "AO Elongated Tee",
+    "price": 44,
+    "oldPrice": 54,
+    "isSellingFast": false,
+    "isSoldOut": false,
+    "imageUrl": "path/to/image2.png"
+  },
+  {
+    "id": 4,
+    "name": "AO Elongated Tee",
+    "price": 46,
+    "oldPrice": 54,
     "isSellingFast": false,
     "isSoldOut": false,
     "imageUrl": "path/to/image2.png"
