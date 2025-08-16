@@ -1,3 +1,7 @@
+header {
+  width: 100%;
+}
+
 .top-bar {
   background-color: #212322; 
   color: #fff; 
@@ -5,7 +9,6 @@
   padding: 6px 10px;
   height: 30px;
 }
-
 
 .promo-text {
   margin: 0;
@@ -20,5 +23,40 @@
 .main-nav {
   background-color: #fafaf8; 
   padding: 4px 16px;
-  height: 53px;
+  height: 53.52px;
+  justify-content: center;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mob-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.icon-link {
+  height: 24px;
+}
+
+.nav-links-desk {
+  display: none;
+}
+
+.icon-search, .icon-user {
+  display: none;
+}
+.header .logo {
+  display: flex;
+  align-items: center; 
+ 
+}
+.logo-link {
+  width: 121px;  
+}
+
+.nav-icons {  
+  display: flex;
 }
