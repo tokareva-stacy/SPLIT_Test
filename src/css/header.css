@@ -31,10 +31,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
+ 
 }
 .mob-icons {
   display: flex;
-  flex-direction: row;
   gap: 16px;
 }
 .icon-link {
@@ -51,6 +52,7 @@ header {
 .header .logo {
   display: flex;
   align-items: center; 
+  flex-grow: 0;
  
 }
 .logo-link {
@@ -58,5 +60,6 @@ header {
 }
 
 .nav-icons {  
-  display: flex;
+  display: flex; 
+  gap: 16px;
 }
