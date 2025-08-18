@@ -17,3 +17,6 @@
 @import url('./back-link.css');
 @import url('./footer.css');
 
+body {
+  font-family: "Inter", sans-serif;
+}
