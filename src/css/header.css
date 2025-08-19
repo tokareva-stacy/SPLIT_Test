@@ -68,6 +68,7 @@ header {
 .icon-logo {
   width: 121px;
   height: 45px;
+  fill: #212322;
 }
 .nav-right {
   justify-content: flex-end;
