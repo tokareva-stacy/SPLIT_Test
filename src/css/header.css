@@ -30,6 +30,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 4px;
 }
 .nav-left,
 .nav-right {
@@ -55,9 +56,29 @@ header {
 .icon-link {
   height: 24px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: currentColor;
+  color: currentColor;
 }
 .icon-link:hover {
   fill: slategray;
+}
+.icon-burger,
+.icon-search-mob,
+.arr-down,
+.icon-search,
+.icon-user,
+.icon-cart {
+  fill: transparent;
+  stroke: black;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-burger:hover,
+.icon-search-mob:hover,
+.arr-down:hover,
+.icon-search:hover,
+.icon-user:hover,
+.icon-cart:hover {
+  stroke: slategray;
 }
 .logo {
   flex-grow: 0;
@@ -68,7 +89,7 @@ header {
 .icon-logo {
   width: 121px;
   height: 45px;
-  fill: #212322;
+  
 }
 .nav-right {
   justify-content: flex-end;
@@ -129,6 +150,13 @@ header {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   justify-content: start;
 }
+.close-icon {
+  fill: black;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.close-icon:hover {
+  fill: slategray;
+}
 
 .mobile-menu.is-open .burger-btn {
   display: none;
@@ -136,11 +164,6 @@ header {
 
 .mobile-menu.is-open .close-btn {
   display: flex;
-}
-
-.close-icon {
-  fill: currentColor;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-menu-nav {
@@ -213,6 +236,7 @@ header {
   }
   .nav-container {
     height: 100%;
+    padding-top: 0;
   }
   .main-nav {
     background-color: #e8e4e4;
@@ -289,6 +313,9 @@ header {
     display: flex; 
     gap: 40px;
   }
-  
+  .icon-logo {
+    width: 264px;
+    height: 66px;
+  }
   
 }
