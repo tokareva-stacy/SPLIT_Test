@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   <script type="module" crossorigin src="/SPLIT_Test/index.js"></script>
-  <link rel="stylesheet" crossorigin href="/SPLIT_Test/assets/index-BccLXJoK.css">
+  <link rel="stylesheet" crossorigin href="/SPLIT_Test/assets/index-CuSfCH-L.css">
 </head>
 
 <body>
@@ -24,9 +24,11 @@
     <div class="nav-container">
       <div class="nav-left">
         <div class="mob-icons">
-          <a href="#" class="icon-link"><svg class="icon-burger" width="24" height="24">
-                <use href="../img/icons/burger.svg"></use>
-            </svg></a>
+          <button class="icon-link" data-menu-open>
+    <svg class="icon-burger" width="24" height="24">
+        <use href="../img/icons/sprite.svg#burger"></use>
+    </svg>
+</button>
           <a href="#" class="icon-link"><svg class="icon-search-mob" width="24" height="24">
                 <use href="../img/icons/search.svg"></use>
             </svg></a>
@@ -53,7 +55,7 @@
       <div class="logo">
         <a href="" class="logo-link">
           <svg class="icon-logo" width="121" height="45">
-              <use href="../img/icons/logo.svg"></use>
+              <use href="../img/icons/symbol-defs.svg#icon-logo"></use>
           </svg>
         </a>
       </div>
@@ -75,6 +77,35 @@
   </nav>
 </header>
 
+<div class="mobile-menu" data-menu>
+    <div class="mobile-menu-container">
+      <button class="close-btn" data-menu-close>
+      <svg class="close-icon" width="24" height="24">
+        <use href="../img/sprite.svg#icon-close"></use>
+      </svg>
+  </button>
+        <div class="content-wrapper">
+            <nav class="mobile-menu-nav">
+                <ul class="mobile-menu-list">
+                    <li class="mobile-menu-item">
+                        <a href="#" class="mobile-menu-link">Crew Necks</a>
+                    </li>
+                    <li class="mobile-menu-item">
+                        <a href="#" class="mobile-menu-link">V-Necks</a>
+                    </li>
+                    <li class="mobile-menu-item">
+                        <a href="#" class="mobile-menu-link">Activewear</a>
+                    </li>
+                    <li class="mobile-menu-item">
+                        <a href="#" class="mobile-menu-link">Bundles</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+    
+<script src="./js/menu.js"></script>
   <main>
     
     
