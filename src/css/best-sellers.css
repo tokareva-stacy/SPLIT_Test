@@ -1,0 +1,145 @@
+.best-sellers {
+    padding-top: 30px;
+    background-color: #f1f1f1;
+    height: 386px;
+}
+.best-sellers-content {
+    display: flex;
+    align-items: center;
+}
+.b-s-title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 123%;
+    text-transform: capitalize;
+    color: #212322;
+    width: 252px;
+}
+.view-all-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: #212322;
+    padding: 6px 8px;
+    width: 67px;
+}
+.arr-right {
+    fill: transparent;
+    stroke: #212322;
+}
+
+.icon-arrow {
+    fill: transparent;
+    stroke-width: 1px;
+    stroke: #e0dbcf;
+    padding-bottom: 16px;
+}
+
+/* CARDS */
+.products {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.product-card {
+  position: relative;
+  padding: 6px;
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+  background-color: #f1f1f1;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 164px;
+  height: 268px;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  max-width: 100%;
+  margin-bottom: 8px;
+}
+.selling-fast {
+    width: 103px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 167%;
+    text-transform: uppercase;
+    color: #fafaf8;
+    padding: 3px 10px;
+    background-color: #212322;
+}
+.sold-out {
+    width: 80px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 167%;
+    text-transform: uppercase;
+    color: #fafaf8;
+    padding: 3px 10px;
+    background-color: #212322;    
+}
+
+.badge, .discount {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: black;
+  color: white;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 6px;
+}
+
+.discount {
+  left: auto;
+  right: 10px;
+  background: red;
+}
+.product-name {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #212322;
+}
+
+.price {
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: #212322;
+}
+
+.old-price {
+  text-decoration: line-through;
+  margin-left: 8px;
+  font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #605e5c;
+}
+
+.add-to-cart-btn {
+  margin-top: 13px;
+  border: none;
+  border-radius: 6px;
+  background: #212322;
+  cursor: pointer;
+    padding: 6px;
+    width: 28px;
+    height: 28px;
+}
+
+.add-to-cart-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+.add-to-cart-icon {
+    fill: transparent;
+    stroke: #FAFAF8;
+}
+.product-card.sold-out {
+  opacity: 0.6;
+}
