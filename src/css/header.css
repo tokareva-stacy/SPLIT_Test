@@ -21,7 +21,6 @@ header {
 
 .main-nav {
   background-color: #fafaf8; 
-  padding: 0 16px;
   height: 53.52px;
   justify-content: center;
 }
@@ -207,9 +206,6 @@ header {
 }
 
 @media screen and (min-width: 768px) {
-  .main-nav {
-    padding: 0 36px; 
-  }
   .mob-icons {
     gap: 28px;
   }
@@ -240,7 +236,6 @@ header {
   }
   .main-nav {
     background-color: #e8e4e4;
-    padding: 0 56px;
     height: 78px;
   }  
   .mob-icons {
