@@ -16,11 +16,12 @@
   padding-top: 16px;
   width: 343px;
 }
-
+.hero-content-wrapper {
+  margin-bottom: 16px;
+}
 .hero-title {
   display: flex;
   flex-direction: column;
-  gap: 0.2em;
   font-weight: 700;
   font-size: 36px;
   line-height: 128%;
@@ -57,7 +58,6 @@
   font-size: 14px;
   line-height: 143%;
   color: #605e5c;
-  margin-bottom: 16px;
 }
 .hero-button {
   border-radius: 6px;
@@ -97,8 +97,11 @@
     padding-left: 2px; 
     width: 541px;
   }
-  .hero-title {
+  .hero-content-wrapper {
+    margin-bottom: 40px;
     padding: 16px 20px 0 20px;
+  }
+  .hero-title {
     margin-bottom: 16px;
     font-size: 64px;
     line-height: 122%;
@@ -108,8 +111,6 @@
     line-height: 131%;
   }
   .hero-description {
-    padding: 0 20px 0 20px;
-    margin-bottom: 40px;
     font-size: 18px;
     line-height: 144%;
   }

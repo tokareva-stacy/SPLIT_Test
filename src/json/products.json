@@ -7,7 +7,8 @@
     "isSellingFast": true,
     "isSoldOut": false,
     "isDiscount": false,
-    "imageUrl": "../img/best-sellers/gray-t-shirt-min.jpg"
+    "imageUrl": "../img/best-sellers/gray-t-shirt-min.jpg",
+    "imageUrl2x": "../img/best-sellers/gray-t-shirt@2x-min.jpg"
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "isSellingFast": false,
     "isSoldOut": false,
     "isDiscount": true,
-    "imageUrl": "../img/best-sellers/color-3-t-shirts-min.jpg"
+    "imageUrl": "../img/best-sellers/color-3-t-shirts-min.jpg",
+    "imageUrl2x": "../img/best-sellers/color-3-t-shirts@2x-min.jpg"
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "isSellingFast": false,
     "isSoldOut": false,
     "isDiscount": false,
-    "imageUrl": "../img/best-sellers/gray-t-shirt-min.jpg"
+    "imageUrl": "../img/best-sellers/gray-t-shirt-min.jpg",
+    "imageUrl2x": "../img/best-sellers/gray-t-shirt@2x-min.jpg"
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "isSellingFast": false,
     "isSoldOut": false,
     "isDiscount": true,
-    "imageUrl": "../img/best-sellers/black-t-shirt-min.jpg"
+    "imageUrl": "../img/best-sellers/black-t-shirt-min.jpg",
+    "imageUrl2x": "../img/best-sellers/black-t-shirt@2x-min.jpg"
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "isSellingFast": true,
     "isSoldOut": false,
     "isDiscount": true,
-    "imageUrl": "../img/best-sellers/color-3-t-shirts-min.jpg"
+    "imageUrl": "../img/best-sellers/color-3-t-shirts-min.jpg",
+    "imageUrl2x": "../img/best-sellers/color-3-t-shirts@2x-min.jpg"
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "isSellingFast": false,
     "isSoldOut": true,
     "isDiscount": true,
-    "imageUrl": "../img/best-sellers/gray-t-shirt-min.jpg"
+    "imageUrl": "../img/best-sellers/gray-t-shirt-min.jpg",
+    "imageUrl2x": "../img/best-sellers/gray-t-shirt@2x-min.jpg"
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "isSellingFast": true,
     "isSoldOut": false,
     "isDiscount": true,
-    "imageUrl": "../img/best-sellers/color-3-t-shirts-min.jpg"
+    "imageUrl": "../img/best-sellers/color-3-t-shirts-min.jpg",
+    "imageUrl2x": "../img/best-sellers/color-3-t-shirts@2x-min.jpg"
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@
     "isSellingFast": false,
     "isSoldOut": false,
     "isDiscount": true,
-    "imageUrl": "../img/best-sellers/man-black-t-shirt-min.jpg"
+    "imageUrl": "../img/best-sellers/man-black-t-shirt-min.jpg",
+    "imageUrl2x": "../img/best-sellers/man-black-t-shirt@2x-min.jpg"
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@
     "isSellingFast": true,
     "isSoldOut": false,
     "isDiscount": false,
-    "imageUrl": "../img/best-sellers/color-3-t-shirts-min.jpg"
+    "imageUrl": "../img/best-sellers/color-3-t-shirts-min.jpg",
+    "imageUrl2x": "../img/best-sellers/color-3-t-shirts@2x-min.jpg"
   },
   {
     "id": 10,
@@ -97,6 +106,29 @@
     "isSellingFast": true,
     "isSoldOut": false,
     "isDiscount": true,
-    "imageUrl": "../img/best-sellers/man-black-t-shirt-min.jpg"
+    "imageUrl": "../img/best-sellers/man-black-t-shirt-min.jpg",
+    "imageUrl2x": "../img/best-sellers/man-black-t-shirt@2x-min.jpg"
+  },
+  {
+    "id": 11,
+    "name": "AO Elongated Tee",
+    "price": 44,
+    "oldPrice": 54,
+    "isSellingFast": true,
+    "isSoldOut": false,
+    "isDiscount": true,
+    "imageUrl": "../img/best-sellers/gray-t-shirt-min.jpg",
+    "imageUrl2x": "../img/best-sellers/gray-t-shirt@2x-min.jpg"
+  },
+  {
+    "id": 12,
+    "name": "AO Elongated Tee",
+    "price": 44,
+    "oldPrice": 54,
+    "isSellingFast": true,
+    "isSoldOut": false,
+    "isDiscount": true,
+    "imageUrl": "../img/best-sellers/man-black-t-shirt-min.jpg",
+    "imageUrl2x": "../img/best-sellers/man-black-t-shirt@2x-min.jpg"
   }  
 ]

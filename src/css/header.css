@@ -59,7 +59,7 @@ header {
   color: currentColor;
 }
 .icon-link:hover {
-  fill: slategray;
+  fill: #605e5c;
 }
 .icon-burger,
 .icon-search-mob,
@@ -77,7 +77,7 @@ header {
 .icon-search:hover,
 .icon-user:hover,
 .icon-cart:hover {
-  stroke: slategray;
+  stroke: #605e5c;
 }
 .logo {
   flex-grow: 0;
@@ -101,7 +101,7 @@ header {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-link:hover {
-  fill: slategray;
+  fill: #605e5c;
 }
 
 /* MOB_MENU */
@@ -154,7 +154,7 @@ header {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-icon:hover {
-  fill: slategray;
+  fill: #605e5c;
 }
 
 .mobile-menu.is-open .burger-btn {
@@ -202,7 +202,7 @@ header {
 
 .mobile-menu-link:hover,
 .mobile-menu-link:focus {
-  color: slategray;
+  color: #605e5c;
 }
 
 @media screen and (min-width: 768px) {
@@ -235,7 +235,7 @@ header {
     padding-top: 0;
   }
   .main-nav {
-    background-color: #e8e4e4;
+    background-color: #e3e3e3;
     height: 78px;
   }  
   .mob-icons {
@@ -264,7 +264,7 @@ header {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .nav-desk-link:hover {
-    color: slategray;
+    color: #605e5c;
   }
   .nav-link-text {
     padding-right: 13px;
@@ -290,11 +290,13 @@ header {
   }
 
   .nav-desk-link.arr-down {
-    transition: transform 0.250s ease; 
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1)б
+                stroke 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   }
 
   .has-submenu:hover .arr-down {
     transform: rotate(180deg);
+    stroke: #605e5c;
   }
   .submenu-link {
     padding: 5px 0;
@@ -302,7 +304,7 @@ header {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .submenu-link:hover {
-    color: slategray;
+    color: #605e5c;
   }
   .profile-icons {  
     display: flex; 

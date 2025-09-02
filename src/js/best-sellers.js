@@ -1,77 +1,88 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const productsContainer = document.getElementById('products');
+document.addEventListener("DOMContentLoaded", () => {
+  const productsContainer = document.querySelector(".products");
+  const viewAllBtn = document.querySelector(".view-all-link");
 
+  let isExpanded = false;
 
-    fetch('../json/products.json')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network error: ' + response.statusText);
-            }
-            return response.json();
-        })
-        .then(products => {
-            products.forEach(product => {
-                const productCard = document.createElement('div');
-                productCard.classList.add('product-card');
+  const createProductCard = (product) => {
+    const {
+      name,
+      price,
+      oldPrice,
+      isSellingFast,
+      isSoldOut,
+      isDiscount,
+      imageUrl,
+      imageUrl2x,
+    } = product;
 
-
-                let statusTag = '';
-                if (product.isSellingFast) {
-                    statusTag = '<div class="status-tag selling-fast">SELLING FAST</div>';
-                } else if (product.isSoldOut) {
-                    statusTag = '<div class="status-tag sold-out">SOLD OUT</div>';
-                }
-
-
-                let oldPriceHtml = '';
-                let priceClass = '';
-                let discountTag = '';
-                if (product.oldPrice) {
-                    oldPriceHtml = `<span class="old-price">$${product.oldPrice}</span>`;
-                    priceClass = 'has-old-price';
-                    discountTag = '<div class="discount-tag">20% OFF</div>';
-                }
-
-
-                productCard.innerHTML = `
-                    <div class="product-image-wrapper">
-                        <img src="${product.imageUrl}" alt="${product.name}">
-                        ${statusTag}
-                        ${discountTag}
-                    </div>
-                    <h3 class="product-name">${product.name}</h3>
-                    <div class="product-price">
-                        <span class="current-price ${priceClass}">$${product.price}</span>
-                        ${oldPriceHtml}
-                    </div>
-                    <button class="add-to-cart-btn">
-                        <svg width="16" height="24" class="add-to-cart-icon">
-                            <use href="./img/symbol-defs.svg#icon-cart"></use>
-                        </svg>
-                    </button>
-                `;
-
-
-                productsContainer.appendChild(productCard);
-            });
-        })
-        .catch(error => console.error('Error while receiving goods:', error));
-});
-
-
-// --- Код для прокрутки при клике на "View all" ---
-    const viewAllLink = document.querySelector('.view-all-link');
-
-
-    if (viewAllLink) { // Проверяем, что ссылка найдена
-        viewAllLink.addEventListener('click', (event) => {
-            event.preventDefault(); // Отменяем стандартное поведение ссылки (переход по URL)
-
-
-            // Прокручиваем до контейнера с карточками товаров
-            productsContainer.scrollIntoView({
-                behavior: 'smooth', // Делаем прокрутку плавной
-                block: 'start'      // Выравниваем верхний край контейнера по верху видимой области
-            });
-        });
+    let labels = "";
+    if (isSellingFast) labels += `<span class="label selling-fast">SELLING FAST</span>`;
+    if (isDiscount) {
+      const shiftClass = isSellingFast ? "shifted" : "";
+      labels += `<span class="label discount ${shiftClass}">20% OFF</span>`;
     }
+    if (isSoldOut) labels += `<span class="label sold-out">SOLD OUT</span>`;
+
+    const hasOldPrice = oldPrice !== null && oldPrice !== undefined;
+    const priceClass = hasOldPrice ? "price discounted" : "price";
+
+    const priceHtml = hasOldPrice
+      ? `<span class="${priceClass}">$${price}</span> <span class="old-price">$${oldPrice}</span>`
+      : `<span class="${priceClass}">$${price}</span>`;
+
+    const soldOutClass = isSoldOut ? "sold-out-card" : "";
+
+    return `
+      <div class="product-card ${soldOutClass}">
+        <div class="product-image-wrapper">
+          ${labels}
+          <img 
+            src="${imageUrl}" 
+            srcset="${imageUrl2x} 2x" 
+            alt="${name}" 
+            class="product-image" 
+          />
+          <div class="sizes">
+            <button>S</button>
+            <button>M</button>
+            <button>L</button>
+            <button>XL</button>
+            <button>2XL</button>
+            <button>3XL</button>
+            <button>4XL</button>
+          </div>
+        </div>
+        <div class="card-info-wrapper">
+          <div class="card-info">
+            <p class="product-name">${name}</p>
+            <div class="product-prices">${priceHtml}</div>
+          </div>
+          <button class="cart-btn" ${isSoldOut ? "disabled" : ""}>
+            <svg class="cart-icon" width="16" height="16">
+              <use href="./img/symbol-defs.svg#icon-cart"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    `;
+  };
+
+  fetch("./json/products.json")
+    .then((res) => res.json())
+    .then((data) => {
+      productsContainer.innerHTML = data.map(createProductCard).join("");
+    })
+    .catch((err) => console.error("Ошибка загрузки products.json:", err));
+
+  viewAllBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    isExpanded = !isExpanded;
+    productsContainer.classList.toggle("expanded", isExpanded);
+
+    const span = viewAllBtn.querySelector(".view-all-link-text");
+    if (span) span.textContent = isExpanded ? "Hide" : "View all";
+
+    viewAllBtn.classList.toggle("is-expanded", isExpanded);
+  });
+});
