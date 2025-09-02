@@ -68,12 +68,12 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
   };
 
-  fetch("./json/products.json")
+  fetch("../json/products.json")
     .then((res) => res.json())
     .then((data) => {
       productsContainer.innerHTML = data.map(createProductCard).join("");
     })
-    .catch((err) => console.error("Ошибка загрузки products.json:", err));
+    .catch((err) => console.error("Ошибка загрузки:", err));
 
   viewAllBtn.addEventListener("click", (e) => {
     e.preventDefault();
