@@ -26,9 +26,9 @@
     "name": "AO Elongated Tee",
     "price": 44,
     "oldPrice": 54,
-    "isSellingFast": false,
+    "isSellingFast": true,
     "isSoldOut": false,
-    "isDiscount": false,
+    "isDiscount": true,
     "imageUrl": "../img/best-sellers/gray-t-shirt-min.jpg",
     "imageUrl2x": "../img/best-sellers/gray-t-shirt@2x-min.jpg"
   },
@@ -94,7 +94,7 @@
     "oldPrice": 154,
     "isSellingFast": true,
     "isSoldOut": false,
-    "isDiscount": false,
+    "isDiscount": true,
     "imageUrl": "../img/best-sellers/color-3-t-shirts-min.jpg",
     "imageUrl2x": "../img/best-sellers/color-3-t-shirts@2x-min.jpg"
   },
@@ -105,7 +105,7 @@
     "oldPrice": null,
     "isSellingFast": true,
     "isSoldOut": false,
-    "isDiscount": true,
+    "isDiscount": false,
     "imageUrl": "../img/best-sellers/man-black-t-shirt-min.jpg",
     "imageUrl2x": "../img/best-sellers/man-black-t-shirt@2x-min.jpg"
   },
@@ -125,7 +125,7 @@
     "name": "AO Elongated Tee",
     "price": 44,
     "oldPrice": 54,
-    "isSellingFast": true,
+    "isSellingFast": false,
     "isSoldOut": false,
     "isDiscount": true,
     "imageUrl": "../img/best-sellers/man-black-t-shirt-min.jpg",
