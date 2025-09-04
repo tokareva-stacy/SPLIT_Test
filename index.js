@@ -25,7 +25,7 @@
           </div>
           <button class="cart-btn" ${s?"disabled":""}>
             <svg class="cart-icon" width="16" height="16">
-              <use href="./img/symbol-defs.svg#icon-cart"></use>
+              <use href="/SPLIT_Test/symbol-defs.svg#icon-cart"></use>
             </svg>
           </button>
         </div>
