@@ -1,13 +1,13 @@
 .hero-section {
   height: 476px;
-  background-image: url(../img/hero/banner-photo-min.jpg);
+  background-image: url(/SPLIT_Test/hero/banner-photo-min.jpg);
   background-size: cover;
   background-position: right center;
   }
   
   @media screen and (min-resolution: 2x) {
     .hero {
-      background-image: url(../img/hero/banner-photo@2x-min.jpg);
+      background-image: url(/SPLIT_Test/hero/banner-photo@2x-min.jpg);
   
     }
   }
