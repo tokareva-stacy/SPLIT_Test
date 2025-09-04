@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
   };
 
-  fetch("/src/json/products.json")
+  fetch("src/json/products.json")
     .then((res) => res.json())
     .then((data) => {
       productsContainer.innerHTML = data.map(createProductCard).join("");
