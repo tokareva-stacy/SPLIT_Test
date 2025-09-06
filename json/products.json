@@ -7,8 +7,8 @@
     "isSellingFast": true,
     "isSoldOut": false,
     "isDiscount": false,
-    "imageUrl": "/SPLIT_Test/best-sellers/gray-t-shirt-min.jpg",
-    "imageUrl2x": "/SPLIT_Test/best-sellers/gray-t-shirt@2x-min.jpg"
+    "imageUrl": "/SPLIT_Test/img/best-sellers/gray-t-shirt-min.jpg",
+    "imageUrl2x": "/SPLIT_Test/img/best-sellers/gray-t-shirt@2x-min.jpg"
   },
   {
     "id": 2,
@@ -18,8 +18,8 @@
     "isSellingFast": false,
     "isSoldOut": false,
     "isDiscount": true,
-    "imageUrl": "/SPLIT_Test/best-sellers/color-3-t-shirts-min.jpg",
-    "imageUrl2x": "/SPLIT_Test/best-sellers/color-3-t-shirts@2x-min.jpg"
+    "imageUrl": "/SPLIT_Test/img/best-sellers/color-3-t-shirts-min.jpg",
+    "imageUrl2x": "/SPLIT_Test/img/best-sellers/color-3-t-shirts@2x-min.jpg"
   },
   {
     "id": 3,
@@ -29,8 +29,8 @@
     "isSellingFast": true,
     "isSoldOut": false,
     "isDiscount": true,
-    "imageUrl": "/SPLIT_Test/best-sellers/gray-t-shirt-min.jpg",
-    "imageUrl2x": "/SPLIT_Test/best-sellers/gray-t-shirt@2x-min.jpg"
+    "imageUrl": "/SPLIT_Test/img/best-sellers/gray-t-shirt-min.jpg",
+    "imageUrl2x": "/SPLIT_Test/img/best-sellers/gray-t-shirt@2x-min.jpg"
   },
   {
     "id": 4,
@@ -40,8 +40,8 @@
     "isSellingFast": false,
     "isSoldOut": false,
     "isDiscount": true,
-    "imageUrl": "/SPLIT_Test/best-sellers/black-t-shirt-min.jpg",
-    "imageUrl2x": "/SPLIT_Test/best-sellers/black-t-shirt@2x-min.jpg"
+    "imageUrl": "/SPLIT_Test/img/best-sellers/black-t-shirt-min.jpg",
+    "imageUrl2x": "/SPLIT_Test/img/best-sellers/black-t-shirt@2x-min.jpg"
   },
   {
     "id": 5,
@@ -51,8 +51,8 @@
     "isSellingFast": true,
     "isSoldOut": false,
     "isDiscount": true,
-    "imageUrl": "/SPLIT_Test/best-sellers/color-3-t-shirts-min.jpg",
-    "imageUrl2x": "/SPLIT_Test/best-sellers/color-3-t-shirts@2x-min.jpg"
+    "imageUrl": "/SPLIT_Test/img/best-sellers/color-3-t-shirts-min.jpg",
+    "imageUrl2x": "/SPLIT_Test/img/best-sellers/color-3-t-shirts@2x-min.jpg"
   },
   {
     "id": 6,
@@ -62,8 +62,8 @@
     "isSellingFast": false,
     "isSoldOut": true,
     "isDiscount": true,
-    "imageUrl": "/SPLIT_Test/best-sellers/gray-t-shirt-min.jpg",
-    "imageUrl2x": "/SPLIT_Test/best-sellers/gray-t-shirt@2x-min.jpg"
+    "imageUrl": "/SPLIT_Test/img/best-sellers/gray-t-shirt-min.jpg",
+    "imageUrl2x": "/SPLIT_Test/img/best-sellers/gray-t-shirt@2x-min.jpg"
   },
   {
     "id": 7,
@@ -73,8 +73,8 @@
     "isSellingFast": true,
     "isSoldOut": false,
     "isDiscount": true,
-    "imageUrl": "/SPLIT_Test/best-sellers/color-3-t-shirts-min.jpg",
-    "imageUrl2x": "/SPLIT_Test/best-sellers/color-3-t-shirts@2x-min.jpg"
+    "imageUrl": "/SPLIT_Test/img/best-sellers/color-3-t-shirts-min.jpg",
+    "imageUrl2x": "/SPLIT_Test/img/best-sellers/color-3-t-shirts@2x-min.jpg"
   },
   {
     "id": 8,
@@ -84,8 +84,8 @@
     "isSellingFast": false,
     "isSoldOut": false,
     "isDiscount": true,
-    "imageUrl": "/SPLIT_Test/best-sellers/man-black-t-shirt-min.jpg",
-    "imageUrl2x": "/SPLIT_Test/best-sellers/man-black-t-shirt@2x-min.jpg"
+    "imageUrl": "/SPLIT_Test/img/best-sellers/man-black-t-shirt-min.jpg",
+    "imageUrl2x": "/SPLIT_Test/img/best-sellers/man-black-t-shirt@2x-min.jpg"
   },
   {
     "id": 9,
@@ -95,8 +95,8 @@
     "isSellingFast": true,
     "isSoldOut": false,
     "isDiscount": true,
-    "imageUrl": "/SPLIT_Test/best-sellers/color-3-t-shirts-min.jpg",
-    "imageUrl2x": "/SPLIT_Test/best-sellers/color-3-t-shirts@2x-min.jpg"
+    "imageUrl": "/SPLIT_Test/img/best-sellers/color-3-t-shirts-min.jpg",
+    "imageUrl2x": "/SPLIT_Test/img/best-sellers/color-3-t-shirts@2x-min.jpg"
   },
   {
     "id": 10,
@@ -106,8 +106,8 @@
     "isSellingFast": true,
     "isSoldOut": false,
     "isDiscount": false,
-    "imageUrl": "/SPLIT_Test/best-sellers/man-black-t-shirt-min.jpg",
-    "imageUrl2x": "/SPLIT_Test/best-sellers/man-black-t-shirt@2x-min.jpg"
+    "imageUrl": "/SPLIT_Test/img/best-sellers/man-black-t-shirt-min.jpg",
+    "imageUrl2x": "/SPLIT_Test/img/best-sellers/man-black-t-shirt@2x-min.jpg"
   },
   {
     "id": 11,
@@ -117,8 +117,8 @@
     "isSellingFast": true,
     "isSoldOut": false,
     "isDiscount": true,
-    "imageUrl": "/SPLIT_Test/best-sellers/gray-t-shirt-min.jpg",
-    "imageUrl2x": "/SPLIT_Test/best-sellers/gray-t-shirt@2x-min.jpg"
+    "imageUrl": "/SPLIT_Test/img/best-sellers/gray-t-shirt-min.jpg",
+    "imageUrl2x": "/SPLIT_Test/img/best-sellers/gray-t-shirt@2x-min.jpg"
   },
   {
     "id": 12,
@@ -128,7 +128,7 @@
     "isSellingFast": false,
     "isSoldOut": false,
     "isDiscount": true,
-    "imageUrl": "/SPLIT_Test/best-sellers/man-black-t-shirt-min.jpg",
-    "imageUrl2x": "/SPLIT_Test/best-sellers/man-black-t-shirt@2x-min.jpg"
+    "imageUrl": "/SPLIT_Test/img/best-sellers/man-black-t-shirt-min.jpg",
+    "imageUrl2x": "/SPLIT_Test/img/best-sellers/man-black-t-shirt@2x-min.jpg"
   }  
 ]
