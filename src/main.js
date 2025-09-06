@@ -1,3 +1,3 @@
-import '/SPLIT_Test/js/menu.js';
-import '/SPLIT_Test/js/best-sellers.js';
-import '/SPLIT_Test/js/size-comparison.js';
+import './js/menu.js';
+import './js/best-sellers.js';
+import './js/size-comparison.js';
