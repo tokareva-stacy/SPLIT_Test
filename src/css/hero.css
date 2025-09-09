@@ -1,16 +1,16 @@
-.hero-section {
+.hero {
   height: 476px;
   background-image: url(/SPLIT_Test/img/hero/banner-photo-min.jpg);
   background-size: cover;
   background-position: right center;
-  }
+}
   
-  @media screen and (min-resolution: 2x) {
-    .hero {
-      background-image: url(/SPLIT_Test/img/hero/banner-photo@2x-min.jpg);
+@media screen and (min-resolution: 2x) {
+  .hero {
+    background-image: url(/SPLIT_Test/img/hero/banner-photo@2x-min.jpg);
   
-    }
   }
+}
 
 .hero-content {
   padding-top: 16px;
@@ -86,7 +86,7 @@
 
 
 @media (min-width: 1440px) {
-  .hero-section {
+  .hero {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
