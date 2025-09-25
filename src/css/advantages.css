@@ -1,11 +1,15 @@
 .decor-icon-container {
   display: none;
+  position: absolute;
+  top: -30px;
+  left: -88px;
 }
 .advantages {
   background-color: #e8e4e4;
   display: flex;
   flex-direction: column;
   padding-bottom: 16px;
+  position: relative;
 }
 .advantage-item {
   display: flex;
@@ -35,27 +39,33 @@
   color: #212322;
 }
 
-
 @media (min-width: 1440px) {
   .decor-icon-container {
     display: block;
-    padding-right: 19px;
+    z-index: 0;
   }
   .advantages {
     flex-direction: row;
+    align-items: flex-start;
     padding-left: 0;
     padding-right: 0;
     height: 214px;
-    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    z-index: 1;
   }
   .advantage-list {
     display: flex;
     gap: 40px;
     align-items: center;
     justify-content: center;
+    position: relative;
+    z-index: 2;
   }
   .advantage-item {
     width: 160px;
+    position: relative;
+    z-index: 2;
   }
   .title {
     font-size: 14px;
