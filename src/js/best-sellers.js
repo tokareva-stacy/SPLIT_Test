@@ -1,8 +1,6 @@
 import Swiper from 'swiper';
 import 'swiper/css';
 import { Scrollbar } from 'swiper/modules';
-import 'swiper/css/pagination';
-
 
 const swiper = new Swiper('.bestsellers-swiper', {
   modules: [Scrollbar],
@@ -23,3 +21,4 @@ const swiper = new Swiper('.bestsellers-swiper', {
     }
   }
 });
+
