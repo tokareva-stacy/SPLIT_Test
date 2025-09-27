@@ -1,18 +1,16 @@
 import Swiper from 'swiper';
 import 'swiper/css';
+import { Scrollbar } from 'swiper/modules';
 import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+
 
 const swiper = new Swiper('.bestsellers-swiper', {
+  modules: [Scrollbar],
   slidesPerView: 1.2, 
   spaceBetween: 12,
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev'
+  scrollbar: {
+    el: '.swiper-scrollbar',
+    draggable: true
   },
   breakpoints: {
     768: {
