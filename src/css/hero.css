@@ -14,6 +14,7 @@
 
 .hero-content {
   padding-top: 16px;
+  padding-bottom: 16px;
   width: 343px;
 }
 .hero-content-wrapper {
@@ -80,7 +81,9 @@
 
 @media screen and (min-width: 768px) {
   .hero-content {
-      padding-top: 36px;
+    padding-top: 36px;
+    backdrop-filter: blur(28.100000381469727px);
+    background: rgba(239, 239, 239, 0.2);
   }
 }
 
